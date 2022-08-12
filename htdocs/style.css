@@ -1,7 +1,7 @@
 body {
   color: #ccc;
   background: #111;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -20,9 +20,14 @@ ul.nav > li:hover {
 }
 ul.nav > li > a {
   color: rgba(150, 0, 0, 0.550);
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
   text-decoration: none;
+}
+
+.home-footer{
+  color: rgba(120, 120, 120, 0.15);
+  text-align: center;
+  padding-top: 125px;
 }
 
 .hero {
@@ -492,6 +497,13 @@ ul.nav > li > a {
 
 .hero-container {
   position: relative;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
+}
+
+#countdown {
+  color: rgba(255, 0, 0, 0.285);
+  font-size: 72px;
+  text-align: center;
+  padding: 150px 0;
 }
